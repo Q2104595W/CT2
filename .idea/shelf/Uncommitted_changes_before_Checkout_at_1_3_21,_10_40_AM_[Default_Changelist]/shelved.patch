@@ -1,0 +1,23 @@
+Index: src/com/company/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.company;\n\npublic class Main {\n\n    public static void main(String[] args) {\n\t// write your code here\n    }\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/com/company/Main.java	(revision f16542d2b0f3d483d2d6319bae024a53a04de5f5)
++++ src/com/company/Main.java	(date 1609699201889)
+@@ -1,8 +1,12 @@
+ package com.company;
+ 
++import java.util.Scanner;
++
+ public class Main {
+ 
+     public static void main(String[] args) {
+-	// write your code here
++	    var scanner = new Scanner();
++	    Boolean 
++
+     }
+ }
